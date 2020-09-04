@@ -5,13 +5,14 @@ use EMPRESAMUDANZA;
 
 --Crear las tablas
 create table EMPRESAMUDANZA(
-id_empresa varchar(10),
+id_empresa int,
 nombre_empresa varchar(10),
 telefono varchar(10),
 direccion varchar(10),
 constraint PK_EMPRESAMUDANZA PRIMARY KEY (id_empresa)  
 );
 go
+
 -------------------------------------------------------------
 create table SERVICIO(
 id_servicios int,
